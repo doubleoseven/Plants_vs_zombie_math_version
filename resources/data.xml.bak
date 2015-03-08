@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="72" id="17" name="enemy" shared="false" width="35">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="Animation 0" numframes="1" originx="17" originy="36" sync="false" version="2" width="35">
+            <poly data="4,0,0,35,0,35,72,0,72" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="7" fixedrot="false" fric="0.2" gid="3" id="16" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="enemy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="17" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="false" fric="0.2" gid="3" id="10" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="five_plant" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="90" id="11" name="five_plant" shared="false" width="94">
+        <anim across="1" down="1" durations="100" height="90" id="0" loop="true" name="Animation 0" numframes="1" originx="47" originy="45" sync="false" version="2" width="94">
+            <poly data="4,0,0,94,0,94,90,0,90" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="6" fixedrot="false" fric="0.2" gid="3" id="14" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="four_plant" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="15" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="90" id="15" name="four_plant" shared="false" width="94">
+        <anim across="1" down="1" durations="100" height="90" id="0" loop="true" name="Animation 0" numframes="1" originx="47" originy="45" sync="false" version="2" width="94">
+            <poly data="4,0,0,94,0,94,90,0,90" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <tileset across="2" atlasID="0" desc="" down="28" id="3" name="ground" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="1" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="8" id="8" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="9" id="9" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="10" id="10" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="11" id="11" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="12" id="12" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="13" id="13" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="14" id="14" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="15" id="15" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="16" id="16" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="17" id="17" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="18" id="18" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="19" id="19" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="20" id="20" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="21" id="21" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="22" id="22" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="23" id="23" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="24" id="24" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="25" id="25" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="26" id="26" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="27" id="27" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="28" id="28" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="29" id="29" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="30" id="30" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="31" id="31" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="32" id="32" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="33" id="33" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="34" id="34" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="35" id="35" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="36" id="36" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="37" id="37" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="38" id="38" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="39" id="39" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="40" id="40" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="41" id="41" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="42" id="42" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="43" id="43" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="44" id="44" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="45" id="45" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="46" id="46" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="47" id="47" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="48" id="48" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="49" id="49" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="50" id="50" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="51" id="51" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="52" id="52" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="53" id="53" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="54" id="54" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="55" id="55" order="-1"/>
+    </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="3" id="4" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="one_seed" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
+        <snippets>
+            <s enabled="true" id="9">
+                <prop id="1" list="0" val="0.0"/>
+                <prop id="2" list="0" val="0.0"/>
+                <prop id="4" list="0" val="false"/>
+                <prop id="5" list="0" val="0.0"/>
+                <prop id="6" list="0" val="0.0"/>
+                <prop id="7" list="0" val="0.0"/>
+                <prop id="8" list="0" val="0.0"/>
+                <prop id="9" list="0" val="0.0"/>
+                <prop id="10" list="0" val="0.0"/>
+                <prop id="11" list="0" val="5.0"/>
+                <prop id="12" list="0" val="1000.0"/>
+                <prop id="14" list="0" val="0.0"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="false"/>
+                <prop id="16" list="0" val="0.5"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="44" id="5" name="one_seed" shared="false" width="37">
+        <anim across="1" down="1" durations="100" height="44" id="0" loop="true" name="Animation 0" numframes="1" originx="18" originy="22" sync="false" version="2" width="37">
+            <poly data="4,0,0,37,0,37,44,0,44" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <tileset across="4" atlasID="0" desc="" down="8" id="18" name="text" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="12" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="1" id="2" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="2" id="4" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="3" id="19" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="4" id="1" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="5" id="3" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="6" id="5" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="7" id="20" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="8" id="6" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="9" id="7" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="10" id="8" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="11" id="21" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="12" id="33" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="13" id="10" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="14" id="11" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="15" id="22" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="16" id="34" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="17" id="14" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="18" id="15" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="19" id="23" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="20" id="35" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="21" id="17" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="22" id="18" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="23" id="24" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="24" id="36" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="25" id="26" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="26" id="27" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="27" id="28" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="28" id="29" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="29" id="30" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="30" id="31" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="31" id="32" order="-1"/>
+    </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="5" fixedrot="false" fric="0.2" gid="3" id="12" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="three_plant" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="13" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="90" id="13" name="three_plant" shared="false" width="95">
+        <anim across="1" down="1" durations="100" height="90" id="0" loop="true" name="Animation 0" numframes="1" originx="47" originy="45" sync="false" version="2" width="95">
+            <poly data="4,0,0,95,0,95,90,0,90" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="3" fixedrot="false" fric="0.2" gid="3" id="8" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="three_seed" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="9" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="46" id="9" name="three_seed" shared="false" width="33">
+        <anim across="1" down="1" durations="100" height="46" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="23" sync="false" version="2" width="33">
+            <poly data="4,0,0,33,0,33,46,0,46" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="2" fixedrot="false" fric="0.2" gid="3" id="6" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="two_seed" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="7" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="44" id="7" name="two_seed" shared="false" width="31">
+        <anim across="1" down="1" durations="100" height="44" id="0" loop="true" name="Animation 0" numframes="1" originx="15" originy="22" sync="false" version="2" width="31">
+            <poly data="4,0,0,31,0,31,44,0,44" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+</pack>

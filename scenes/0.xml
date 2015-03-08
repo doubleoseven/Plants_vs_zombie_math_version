@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="0" extheight="544" extwidth="736" extx="-64" exty="-32" format="3.2.0" gravx="-0.0" gravy="0.0" height="480" id="0" name="levelone" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="4" name="one_seed 1" sx="1.0" sy="1.0" x="164" y="406" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="6" name="two_seed 2" sx="1.0" sy="1.0" x="316" y="409" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="8" name="three_seed 3" sx="1.0" sy="1.0" x="475" y="405" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="10" name="five_plant 4" sx="1.0" sy="1.0" x="175" y="2" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="14" name="four_plant 5" sx="1.0" sy="1.0" x="288" y="3" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="12" name="three_plant 6" sx="1.0" sy="1.0" x="397" y="2" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="16" name="enemy 7" sx="0.88235295" sy="0.41666666" x="644" y="266" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="16" name="enemy 8" sx="0.88235295" sy="0.41666666" x="644" y="203" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="20,608.0,352.0,640.0,352.0,640.0,480.0,576.0,480.0,576.0,384.0,96.0,384.0,96.0,480.0,64.0,480.0,64.0,352.0,0.0,352.0,0.0,128.0,64.0,128.0,64.0,0.0,96.0,0.0,96.0,96.0,576.0,96.0,576.0,0.0,640.0,0.0,640.0,128.0,608.0,128.0" x="0.0" y="0.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>
